@@ -9,3 +9,5 @@
           #cen {text-align: center;}
           #OO {background-color: #002A62;}
           #vid {width:600px; height: 450px;}
+          .flex-container {display: flex;}
+          .flex-container > div {background-color: A6A6A6; color: white; width: 100%; margin: 10px; text-align: center; line-height: 30px; font-size: 10px;}

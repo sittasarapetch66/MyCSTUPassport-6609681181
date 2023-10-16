@@ -18,9 +18,16 @@
           .Bottom > div {width: 100%; text-align: left; margin: 1%; color: whitesmoke;}
             .Mlayout {display: flex; flex-direction: column; width: 100% ;}
           .Ilayout {display: flex; flex-direction: row; width: 100% ;}
-          .Ilayout > div { margin: 2px;}
+          .Ilayout > div { margin: 5px;}
           .arc {display: flex;}
           .arc > div {text-align: left;}
+          * {
+            box-sizing: border-box;
+          }
+          .header {
+            background-color: powderblue;
+            padding: 15px;
+          }
           .menu ul {
             text-align: center;
             list-style-type: none;

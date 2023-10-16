@@ -16,21 +16,55 @@
           .VDO > div {background-color: #112b2b; width: 100%; text-align: center; margin: 10%;}
           .Bottom {display: flex; background-color: #002A62;}
           .Bottom > div {width: 100%; text-align: left; margin: 1%; color: whitesmoke;}
-          .col1 {width: 8.33%;}
-            .col2 {width: 16.66%;}
-            .col3 {width: 25%;}
-            .col4 {width: 33.33%;}
-            .col5 {width: 41.66%;}
-            .col6 {width: 50%;}
-            .col7 {width: 58.33%;}
-            .col8 {width: 66.66%;}
-            .col9 {width: 75%;}
-            .col10 {width: 83.33%;}
-            .col11 {width: 91.66%;}
-            .col12 {width: 100%;}
             .Mlayout {display: flex; flex-direction: column; width: 100% ;}
           .Ilayout {display: flex; flex-direction: row; width: 100% ;}
+          .Ilayout > div { margin: 2px;}
           .arc {display: flex;}
           .arc > div {text-align: left;}
-          
-            
+          .menu ul {
+            text-align: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+          .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: #A6A6A6;
+            color: #ffffff;
+          }
+
+[class*="col"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .cols1 {width: 8.33%;}
+  .cols2 {width: 16.66%;}
+  .cols3 {width: 25%;}
+  .cols4 {width: 33.33%;}
+  .cols5 {width: 41.66%;}
+  .cols6 {width: 50%;}
+  .cols7 {width: 58.33%;}
+  .cols8 {width: 66.66%;}
+  .cols9 {width: 75%;}
+  .cols10 {width: 83.33%;}
+  .cols11 {width: 91.66%;}
+  .cols12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+
+  .col1 {width: 8.33%;}
+  .col2 {width: 16.66%;}
+  .col3 {width: 25%;}
+  .col4 {width: 33.33%;}
+  .col5 {width: 41.66%;}
+  .col6 {width: 50%;}
+  .col7 {width: 58.33%;}
+  .col8 {width: 66.66%;}
+  .col9 {width: 75%;}
+  .col10 {width: 83.33%;}
+  .col11 {width: 91.66%;}
+  .col12 {width: 100%;}
+}

@@ -1,7 +1,5 @@
 #para1 {text-align: center;font-family: verdana; font-size: 300%; }
           #para2 {text-align: center;font-family: verdana; font-size: 100%;color: #4B4B4B; padding: 10px;}
-          #oth {display: none; text-align: center;}
-          #oth2 {display: inline; text-align: center;}
           #CB {background-color: #CBFCFC;}
           #sw {background-color: whitesmoke;}
           #A6 {background-color: #A6A6A6;text-align: center;}
@@ -13,21 +11,19 @@
           .Bottom {display: flex; background-color: #002A62;}
           .Bottom > div {width: 100%; text-align: left; margin: 1%; color: whitesmoke;}
             .Mlayout {display: flex; flex-direction: column; width: 100% ;}
-          .Ilayout {display: flex; flex-direction: column; width: 100% ;}
-          .Ilayout > div { margin: 5px;}
           .arc {display: flex;}
           .arc > div {text-align: left;}
-          * {
-            box-sizing: border-box;
+          [class*="col"] {
+            float: left;
           }
           .header {
             background-color: powderblue;
-            padding: 15px;
+           
           }
           .menu ul {
             text-align: center;
             list-style-type: none;
-            margin: 0;
+            margin: 3px;
             padding: 0;
           }
           .menu li {
@@ -42,7 +38,6 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .Ilayout {flex-direction: row; width: 100% ;}
   .cols1 {width: 8.33%;}
   .cols2 {width: 16.66%;}
   .cols3 {width: 25%;}
@@ -55,10 +50,8 @@
   .cols10 {width: 83.33%;}
   .cols11 {width: 91.66%;}
   .cols12 {width: 100%;}
-  .c13 {display: none;}
 }
 @media only screen and (min-width: 768px) {
-  .Ilayout {flex-direction: row; width: 100% ;}
   .col1 {width: 8.33%;}
   .col2 {width: 16.66%;}
   .col3 {width: 25%;}
@@ -71,7 +64,4 @@
   .col10 {width: 83.33%;}
   .col11 {width: 91.66%;}
   .col12 {width: 100%;}
-  .c13 {display: inline;}
-  #oth {display: inline; text-align: center;}
-  #oth2 {display: none;}
 }
